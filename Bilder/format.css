@@ -1,0 +1,211 @@
+BODY {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+P {
+	FONT-FAMILY: Times New Roman,Times
+}
+UL {
+	FONT-FAMILY: Times New Roman,Times
+}
+OL {
+	FONT-FAMILY: Times New Roman,Times
+}
+LI {
+	FONT-FAMILY: Times New Roman,Times
+}
+DIV {
+	FONT-FAMILY: Times New Roman,Times
+}
+TD {
+	FONT-FAMILY: Times New Roman,Times
+}
+TH {
+	FONT-FAMILY: Times New Roman,Times
+}
+ADDRESS {
+	FONT-FAMILY: Times New Roman,Times
+}
+NOBR {
+	FONT-FAMILY: Times New Roman,Times
+}
+B {
+	FONT-FAMILY: Times New Roman,Times
+}
+I {
+	FONT-FAMILY: Times New Roman,Times
+}
+P {
+	FONT-SIZE: 11pt
+}
+UL {
+	FONT-SIZE: 11pt
+}
+OL {
+	FONT-SIZE: 11pt
+}
+LI {
+	FONT-SIZE: 11pt
+}
+TD {
+	FONT-SIZE: 11pt
+}
+TH {
+	FONT-SIZE: 11pt
+}
+ADDRESS {
+	FONT-SIZE: 11pt
+}
+#m1 {
+	FONT-FAMILY: Times New Roman,Times
+}
+#m2 {
+	FONT-FAMILY: Times New Roman,Times
+}
+#m3 {
+	FONT-FAMILY: Times New Roman,Times
+}
+H1 {
+	FONT-FAMILY: Times New Roman,Times
+}
+H2 {
+	FONT-FAMILY: Times New Roman,Times
+}
+H3 {
+	FONT-FAMILY: Times New Roman,Times
+}
+H4 {
+	FONT-FAMILY: Times New Roman,Times
+}
+#m1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt
+}
+#m2 {
+	FONT-SIZE: 11pt
+}
+#m3 {
+	FONT-SIZE: 9pt
+}
+#m5 {
+	FONT-SIZE: 8pt
+}
+#m3k {
+	FONT-SIZE: 9pt; FONT-STYLE: italic
+}
+#m3f {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #990000
+}
+#t1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #990000; FONT-STYLE: italic
+}
+#fettfarbe {
+	FONT-WEIGHT: bold; COLOR: #990000
+}
+#z1 {
+	FONT-SIZE: 16pt
+}
+#z2 {
+	FONT-SIZE: 14pt
+}
+#z3 {
+	FONT-SIZE: 12pt
+}
+#z4 {
+	FONT-SIZE: 11pt
+}
+#z5 {
+	FONT-SIZE: 9pt
+}
+#z6 {
+	FONT-SIZE: 8pt
+}
+#z1b {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt
+}
+#z2b {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt
+}
+#z3b {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt
+}
+#z4b {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt
+}
+#z5b {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt
+}
+#z6b {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt
+}
+#z1cb {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #990000
+}
+#z2cb {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #990000
+}
+#z3cb {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #990000
+}
+#z4cb {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #990000
+}
+#z5cb {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #990000
+}
+#z6cb {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #990000
+}
+#z1ci {
+	FONT-SIZE: 16pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z2ci {
+	FONT-SIZE: 14pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z3ci {
+	FONT-SIZE: 12pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z4ci {
+	FONT-SIZE: 11pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z5ci {
+	FONT-SIZE: 9pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z6ci {
+	FONT-SIZE: 8pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z1cbi {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z2cbi {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z3cbi {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z4cbi {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z5cbi {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #990000; FONT-STYLE: italic
+}
+#z6cbi {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #990000; FONT-STYLE: italic
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #990000
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #990000
+}
+H3 {
+	FONT-SIZE: 12pt; COLOR: #990000; FONT-STYLE: italic
+}
+A:link {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+

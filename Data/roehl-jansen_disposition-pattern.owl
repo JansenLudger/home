@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jansen/ontologies/2014/11/disposition-pattern/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/jansen/ontologies/2014/11/disposition-pattern/">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Import>http://purl.org/biotop/biotoplite.owl</Import>
+    <Declaration>
+        <Class IRI="X-Dispo-Bearer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="X-Disposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="X-Trigger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Xing-Event"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasTriggerD"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasTriggerR"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="X-Dispo-Bearer"/>
+        <Class IRI="http://purl.org/biotop/biotoplite.owl#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="&rdf;PlainLiteral">This is an optional relationship that should only be asserted if in fact all instances of some given type are bearers of instances of a certain type of disposition.</Literal>
+        </Annotation>
+        <Class IRI="X-Dispo-Bearer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.org/biotop/biotoplite.owl#bearerOf"/>
+            <Class IRI="X-Disposition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="X-Disposition"/>
+        <Class IRI="http://purl.org/biotop/biotoplite.owl#Disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="X-Disposition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.org/biotop/biotoplite.owl#hasRealization"/>
+            <Class IRI="Xing-Event"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="&rdf;PlainLiteral">The bearer-type can be &apos;material object&apos; or any subclass thereof.</Literal>
+        </Annotation>
+        <Class IRI="X-Disposition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.org/biotop/biotoplite.owl#inheresIn"/>
+            <Class IRI="X-Dispo-Bearer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="X-Disposition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="hasTriggerD"/>
+            <Class IRI="X-Trigger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="X-Trigger"/>
+        <Class IRI="http://purl.org/biotop/biotoplite.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="X-Trigger"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.org/biotop/biotoplite.owl#hasParticipant"/>
+            <Class IRI="X-Dispo-Bearer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Xing-Event"/>
+        <Class IRI="http://purl.org/biotop/biotoplite.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Xing-Event"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.org/biotop/biotoplite.owl#hasParticipant"/>
+            <Class IRI="X-Dispo-Bearer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Xing-Event"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="hasTriggerR"/>
+            <Class IRI="X-Trigger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTriggerD"/>
+        <Class IRI="http://purl.org/biotop/biotoplite.owl#Disposition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTriggerR"/>
+        <Class IRI="http://purl.org/biotop/biotoplite.owl#Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTriggerD"/>
+        <Class IRI="http://purl.org/biotop/biotoplite.owl#Process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTriggerR"/>
+        <Class IRI="http://purl.org/biotop/biotoplite.owl#Process"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
